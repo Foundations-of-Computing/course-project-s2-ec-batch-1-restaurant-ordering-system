@@ -1,0 +1,67 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css"> <!--linking with css doc-->
+    <script src ="order.js"></script> <!--linking with js file-->
+</head>
+<body>
+    <!--each menu item contains a name ,price and an order button-->
+    <!--starters section-->
+    <section id="starters">
+        <h2>Starters</h2>
+        <div class="menu">
+            <div class="item" > <samp>CHICKEN TIKKA</samp><samp>250 RS</samp> <button onclick="order('CHICKEN TIKKA', 250)">ORDER</button ></div>
+                <div class="item" ><samp>PANEER TIKKA</samp><samp>250 RS</samp> <button onclick="order('PANEER TIKKA', 250)">ORDER</button ></div>
+                <div class="item" > <samp>CHILLI CHICKEN</samp><samp>180 RS</samp> <button onclick="order('CHILLI CHICKEN', 180)">ORDER</button ></div>
+                <div class="item" ><samp>SPRING ROLLS</samp><samp>90 RS</samp> <button onclick="order('SPRING ROLLS', 90)">ORDER</button ></div>
+            
+        </div>
+        </section>
+    <!--main course section-->
+        <section id="main-course">
+        <h2>Main Course</h2>
+        <div class="menu">
+            <div class="item" > <samp>CHICKEN BIRIYANI</samp><samp>300 RS</samp> <button onclick="order('CHICKEN BIRIYANI', 300)">ORDER</button ></div>
+            <div class="item" ><samp>DAL TADKA</samp><samp>180 RS</samp> <button onclick="order('DAL TADKA', 180)">ORDER</button ></div>
+            <div class="item" > <samp>FRIED RICE</samp><samp>300 RS</samp> <button onclick="order('FRIED RICE', 300)">ORDER</button ></div>
+            <div class="item" ><samp>NOODLES</samp><samp>180 RS</samp> <button onclick="order('NOODLES', 180)">ORDER</button ></div>
+            <div class="item" ><samp>MUSHROOM MASALA</samp><samp>130 RS</samp> <button onclick="order('MUSHROOM MASALA', 130)">ORDER</button ></div>
+        </div>
+    </section>
+    <!--dessert section-->
+    <section id="desserts">
+        <h2>Desserts</h2>
+        <div class="menu">
+        <div class="item" > <samp>GULAB JAMUN</samp><samp>120 RS</samp> <button onclick="order('MUSHROOM MASALA', 130)">ORDER</button ></div>
+        <div class="item" ><samp>KULFI</samp><samp>100 RS</samp> <button onclick="order('KULFI', 100)">ORDER</button ></div>
+        <div class="item" > <samp>CAKE SLICE</samp><samp>200 RS</samp> <button onclick="order('CAKE SLICE', 200)">ORDER</button ></div>
+        <div class="item" ><samp>ICE CREAM</samp><samp>160 RS</samp> <button onclick="order('ICE CREAM', 160)">ORDER</button ></div>
+        </div>   
+    </section>
+
+   <!--drinks section-->
+    <section id="drinks">
+        <h2>Drinks</h2>
+        <div class="item" > <samp>SWEET LASSI</samp><samp>90 RS</samp> <button  onclick="order('SWEET LASSI', 90)">ORDER</button></div>
+        <div class="item" ><samp>FRESH LIME</samp><samp>60 RS</samp> <button onclick="order('FRESH LIME', 60)">ORDER</button ></div>
+        <div class="item" > <samp>COLD COFFEE</samp><samp>100 RS</samp> <button onclick="order('FRIED RICE', 100)">ORDER</button ></div>
+        <div class="item" ><samp>MASALA CHAI</samp><samp>50 RS</samp> <button onclick="order('MASALA CHAI', 50)">ORDER</button ></div>
+        <div class="item" ><samp>MOJITO</samp><samp>130 RS</samp> <button onclick="order('MOJITO', 180)">ORDER</button ></div>  
+    </section>
+    <!--added to cart items-->
+    <div class="cart">
+        <h2>Selected Items</h2>
+        <!--the list will be automatically updated using js-->
+        <ul id="order_items"></ul>
+        <!--displaying the total price-->
+        <p><strong>Total Price:</strong> <span id="total_price">0</span></p>
+        <!--button for final submission-->
+        <button class="submit_button" onclick="submitorder()">Submit Order</button>
+    </div>
+
+
+</body>
+</html>
