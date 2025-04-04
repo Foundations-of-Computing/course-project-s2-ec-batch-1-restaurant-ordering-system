@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Booking</title>
+    <link rel="stylesheet" href="book.css"> <!--link to external css file-->
+</head>
+<body>
+<header>
+<h1>Select a Table to Book</h1> <!--page title-->
+</header>
+<!--navigation section-->
+<nav>
+  <a href="menu.html">Menu</a>
+  <a href="spcl.html">Today's Special & Chef</a>
+  <a href="book.html">Seat Booking</a>
+  <a href="order.html">Order Online</a>
+  <a href="feedback.html">Customer Feedback</a>
+</nav>
+<!--selection of number of tables-->
+    <div class="tables">
+      <p><h2>Select the required number of tables</h2>
+        <button class="table-btn">1</button>
+        <button class="table-btn">2</button>
+        <button class="table-btn">3</button>
+<!--setting the time for which table is booked-->        
+        <h2>SET THE TIME</h2>
+        <label for="FROM">from:</label>
+        <input type="number" id="from" required>
+        <label for="TO">to:</label>
+        <input type="number" id="to" required>
+        <br>
+        <br>
+        <br>
+ <!--final submission-->       
+       <p><button type="submit" class="submit-button">Submit</button></p> 
+ </p>
+       
+
+    <script src="book.js"></script> <!--linking with js file-->
+</body>
+</html>
