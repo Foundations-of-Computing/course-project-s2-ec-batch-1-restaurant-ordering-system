@@ -1,0 +1,36 @@
+f <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css"> <!--link with css-->
+</head>
+<body>
+<!--Navigation bar-->
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="spcl.html">Today's Special & Chef</a>
+        <a href="book.html">Seat Booking</a>
+        <a href="order.html">Order Online</a>
+        <a href="feedback.html">Customer Feedback</a>
+    </nav>   
+    <div class="container"> <!--assigning class name contiainer to the div-->
+        <h2>Feedback Form</h2> <!--form heading-->
+        <form id="feedbackForm">
+            <!--name input-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <!--email input-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <!--feedback input-->
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" rows="4" required></textarea>
+            <!--submit button-->
+             <button type="submit">Submit</button>
+        </form>
+    </div> 
+<script src="feedback.js"></script> <!--link with js doc-->
+</body>
+</html>
