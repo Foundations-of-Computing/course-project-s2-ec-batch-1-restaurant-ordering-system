@@ -1,0 +1,92 @@
+*{
+    
+}
+/*styling for main heading*/
+h1{
+    font-size: 2rem;
+    color: black;
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/* styling the Navigation Bar */
+nav {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    opacity: 10;
+    animation: slideDown 1s ease-in-out 2.5s forwards;
+    align-items: center;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    margin: 15px;
+}
+/*styling for subheadings*/
+h2{
+    color: rgb(247, 143, 7);
+    margin: 1cm;
+}
+h3{
+    color: burlywood;
+    margin-top: 20px 1;
+
+}
+/*styling of images*/
+.img1{
+    float: left;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+/*styling of images*/
+.img2{
+    float: left;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+/*styling footer*/
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+ 
+    flex-direction: column;
+}
+/*styling for main*/
+main{
+    font-weight: bold;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}   
+/*styling for bg*/
+body{background: url('rest.jpg') no-repeat center center/cover;}
+.item{
+    flex-direction: column;
+    align-items: center;
+    display: flex;}
+p{
+   
+    color: white;
+    size: 2rem;
+}
