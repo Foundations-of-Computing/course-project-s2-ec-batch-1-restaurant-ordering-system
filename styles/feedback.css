@@ -1,0 +1,67 @@
+ /*styles for the body*/
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background: url('rest.jpg') no-repeat center center/cover;
+}
+/* styles for the class container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/*styles for the form*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+/*styles for input area*/
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*styles for button*/
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*styles for navigator*/
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    opacity: 10;
+    animation: slideDown 1s ease-in-out 2.5s forwards;
+    align-items: center;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    margin: 15px;
+}

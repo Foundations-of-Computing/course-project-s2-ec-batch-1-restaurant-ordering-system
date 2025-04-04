@@ -1,0 +1,95 @@
+/*styling the main heading*/
+h1{
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+/*styling table selection section*/
+.tables{
+    text-align: center;
+    align-items: center;
+    font-style: calc();
+    
+    color: rgb(5, 5, 5);
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+    
+    
+}
+/*styling the submit button*/
+body{
+    text-align: center;
+    align-items: center;
+    font-style: calc();
+    color: brown(235, 229, 229);
+
+    background: url('rest.jpg') no-repeat center center/cover;
+    height: 100vh;
+    justify-content: center;
+    
+    position: calc();
+    flex-direction: column;
+    margin: 0;
+    font-size: 24px;
+    bottom: 0%;
+    
+   
+
+}
+.submit-button{
+    margin-top: 20px;
+    width:150px;
+    font-size: 20px;
+    height: 50px;
+    font-size: 24px;
+    padding:10px;
+    border-radius: 10px;
+}
+/*styling the table buttons*/
+.table-btn{
+    margin-top: 20px;
+    width:50px;
+    font-size: 10px;
+    height: 40px;
+    padding:10px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+/* styling the Navigation Bar */
+nav {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 24px;
+    justify-content: space-around;
+    
+    align-items: center;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    margin: 15px;
+}
+h2{
+    font-size: larger;
+    color: white;
+    size: 2rem;
+    font-style: unset;
+   
+    border: black;
+}
